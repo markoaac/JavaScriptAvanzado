@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <label for="txtPromesaResuelta">Promesa resuelta</label>
+        <input type="text" id="txtPromesaResuelta">
+        <br>
+        <label for="txtPromesaRechazada">Promesa rechazada</label>
+        <input type="text" id="txtPromesaRechazada">
+        <br>
+        <div id="contenedor"></div>
+        <script>
+
+            const txtResuelto = document.getElementById("txtPromesaResuelta");
+            const txtRechazada = document.getElementById("txtPromesaRechazada");
+            const contenedor = document.getElementById("contenedor");
+
+            //Declaración de las promesas
+            // let promesaAceptar = new Promise(function (resolve, reject){
+
+            // });
+            let promesaAceptar = new Promise((resolve, reject) => {
+                // setTimeout(() => {
+                //     reject("H1 generado correctamente");
+                // }, 3000);
+                let valor = 1;
+                if(valor == 1){
+                    resolve("Correcto");
+                }
+                else{
+                    reject("Incorrecto");
+                }
+            });
+
+            promesaAceptar.then(
+                resolve => { 
+                    let h1 = document.createElement("h1");
+                    h1.innerText = resolve;
+                    contenedor.appendChild(h1);
+                    txtResuelto.value = resolve;
+                 },
+                error => alert(error)
+            );
+
+
+        </script>
+    </div>
+</body>
+
+</html>

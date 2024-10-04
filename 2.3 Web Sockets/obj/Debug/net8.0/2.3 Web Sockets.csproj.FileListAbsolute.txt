@@ -1,0 +1,45 @@
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\appsettings.Development.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\appsettings.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\2.3 Web Sockets.staticwebassets.runtime.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\2.3 Web Sockets.exe
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\2.3 Web Sockets.deps.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\2.3 Web Sockets.runtimeconfig.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\2.3 Web Sockets.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\2.3 Web Sockets.pdb
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.GeneratedMSBuildEditorConfig.editorconfig
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.AssemblyInfoInputs.cache
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.AssemblyInfo.cs
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.csproj.CoreCompileInputs.cache
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.MvcApplicationPartsAssemblyInfo.cache
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.RazorAssemblyInfo.cache
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.RazorAssemblyInfo.cs
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\staticwebassets.build.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\staticwebassets.development.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\staticwebassets\msbuild.2.3 Web Sockets.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\staticwebassets\msbuild.build.2.3 Web Sockets.props
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.2.3 Web Sockets.props
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.2.3 Web Sockets.props
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\staticwebassets.pack.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\scopedcss\bundle\2.3 Web Sockets.styles.css
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\scopedcss\projectbundle\2.3 Web Sockets.bundle.scp.css
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\refint\2.3 Web Sockets.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.pdb
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.genruntimeconfig.cache
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\ref\2.3 Web Sockets.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\package-lock.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\package.json
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web Sockets.csproj.AssemblyReference.cache
+C:\FrontEnd\Unidad II\2.3 Web Sockets\obj\Debug\net8.0\2.3 Web .47B6093A.Up2Date

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" placeholder="Ingrese n1" id="n1">
+    <br>
+    <input type="number" placeholder="Ingrese n2" id="n2">
+    <br>
+    <button id="btnCalcular">Calcular</button>
+    <div id="contenedor"></div>
+    <script>
+        const contenedor = document.getElementById("contenedor");
+        const btn = document.getElementById("btnCalcular");
+
+        let promesa = new Promise((resolve, reject) => {
+                const n1 = parseInt(document.getElementById("n1").value);
+                const n2 = parseInt(document.getElementById("n2").value);
+                if (n2 == 0) {
+                    reject("No se puede dividir entre 0");
+                }
+                else {
+                    let res = n1 / n2;
+                    resolve(`El resultado es: ${res}`)
+                }
+            });
+
+        btn.addEventListener("click", () => {
+            
+
+            promesa.then(
+                resolve => {
+                    let h1 = document.createElement("h1");
+                    h1.innerText = resolve;
+                    contenedor.appendChild(h1);
+                },
+                error => {
+                    alert("No se puede dividir entre 0");
+                }
+            )
+        });
+    </script>
+</body>
+
+</html>

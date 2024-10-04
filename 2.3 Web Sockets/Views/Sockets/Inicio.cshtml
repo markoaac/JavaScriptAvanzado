@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Ejemplo Sockets";
+}
+
+<div class="row">
+    <div class="col-3">
+        <input type="text" id="txtNombre" class="form-control" />
+        <button type="button" class="mt-2 btn btn-danger" id="btnEnviar">Enviar</button>
+    </div>
+</div>
+<div class="container" id="contenedor"></div>
+
+<script src="~/js/signalr.js"></script>
+<script>
+    const txt = document.getElementById("txtNombre");
+    const btn = document.getElementById("btnEnviar");
+    const contenedor = document.getElementById("contenedor");
+
+    const conexion = new signalR.HubConnectionBuilder()
+        .withUrl("/WebSocketServer")
+        .build();
+
+    conexion.start().then((s) => {
+        alert("Conexión exitosa");
+    }).catch((e) => {
+        alert("Error al realizar la conexión");
+    });
+
+    btn.addEventListener("click", () => {
+        conexion.invoke("EnviarMensaje",txt.value);
+    });
+
+    conexion.on("EnviarMensajeTodos", (msj) =>{
+        alert(msj); 
+    });
+</script>
