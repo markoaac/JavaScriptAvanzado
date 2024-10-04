@@ -36,12 +36,12 @@ async function getUserRandomAsync(){
         const imagen = document.createElement("img");
         imagen.src = json.results[0].picture.large;
         if(json.results[0].gender == "male"){
-            alert("Hombre");
-            //chart.datasets[0].data = +1;
-            //chart.update();
+            chart.datasets[0].data = +1;
+            chart.update();
         }
         else{
-            alert("Mujer");
+            chart.datasets[1].data = +1;
+            chart.update();
         }
         contenedor.appendChild(imagen);
     } catch (error) {
